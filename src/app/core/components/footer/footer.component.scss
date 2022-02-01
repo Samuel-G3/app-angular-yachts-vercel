@@ -1,0 +1,66 @@
+@import "../../../../styles.scss";
+
+ 
+
+.footer-container {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+    margin: 50px 0px 0px 0px ;
+    height: 10vh;
+    width: 100vw;
+    p {
+      color: red;
+      font-size: 15px;
+    }
+  }
+
+h3 {
+    color: #f6f6f6;
+    &:hover{
+        color: red
+;        transition: 0.8s;
+  transform: scale(1.2);
+    } 
+
+}
+
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+    
+  .linkedin img {
+    background-color: rgb(200, 200, 200);
+    padding: 5px;
+    width: 80px;
+    height: 20px;
+    border-radius: 15px;
+    margin-right: 50px;
+    &:hover {
+      border: solid 2px aliceblue;
+      border-width: 1px;
+      background-color: white;
+      transition: 0.8s;
+  transform: scale(1.2);
+    }
+  }
+  
+  .github img {
+    background-color: rgb(200, 200, 200);
+    padding: 5px;
+    width: 80px;
+    height: 20px;
+    border-radius: 15px;
+    &:hover {
+      border: solid 2px aliceblue;
+      border-width:1px;
+      background-color: white;
+      transition: 0.8s;
+  transform: scale(1.2);
+    }
+  }
+ 

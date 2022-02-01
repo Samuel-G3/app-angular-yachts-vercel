@@ -1,0 +1,6 @@
+ 
+<div *ngIf="boats.length" class="boats-container">
+    <div *ngFor="let boat of boats" class="boats-container__card" style="background-image: url({{boat.image}}); background-size: contain;  background-repeat: no-repeat; background-position: center" routerLink="{{boat.id}}">
+        <h6>{{boat.company}}</h6>
+    </div>
+</div>

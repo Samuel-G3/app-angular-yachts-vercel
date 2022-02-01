@@ -1,0 +1,22 @@
+<div *ngIf="sailboats" class="sailboats-container">
+  <div class="boat-container__card">
+    <img class="img-main"src="{{ sailboats.image }}" alt="{{ sailboats.model }}" />
+  </div> 
+  <div *ngIf="sailboats" class="sailboats-container__info"></div>
+    <h3 class="model">{{ sailboats.company }}</h3>
+    <h3 class="model">{{ sailboats.model }}</h3>
+    
+    <p class="text">{{sailboats.text}} </p>
+     
+
+    <h5 class="spec">Eslora: {{ sailboats.length }}</h5>
+    <h5 class="spec">Manga: {{ sailboats.beam }}</h5>
+    <h5 class="spec">Motor: {{ sailboats.engine }}</h5>
+    
+     <div> 
+    <img class="img" src="{{ sailboats.image2 }}" alt="{{ sailboats.model }}" />
+    <img class="img" src="{{ sailboats.image3 }}" alt="{{ sailboats.model }}" />
+    <img class="img" src="{{ sailboats.image4 }}" alt="{{ sailboats.model }}" />
+    <img class="img" src="{{ sailboats.image5 }}" alt="{{ sailboats.model }}" />
+  </div>
+  </div> 

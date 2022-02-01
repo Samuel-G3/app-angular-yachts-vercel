@@ -1,0 +1,68 @@
+@import "../../../../../styles.scss";
+
+
+ 
+
+.boats-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+   padding: 10px;
+    margin: 25px;
+    font-size: 25px;
+    color: aliceblue; 
+}
+@media only screen and (max-width: 600px) {
+  .boats-container {
+    font-size: 15px;
+  }
+}
+
+
+.img-main{
+  border:solid 1px aliceblue;
+  border-radius: 3px;
+    margin: 20px;
+    height: 600px;
+    width: 1000px;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-main {
+    width: 85vw;
+    height: 65vw;
+  }
+}
+
+ 
+.img{
+ 
+  border:solid 1px aliceblue;
+  border-radius: 3px;
+    margin: 20px;
+    height: 500px;
+    width: 70vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 85vw;
+    height: 65vw;
+  }
+}
+
+.spec  {
+  margin: 10px;
+  color: rgb(130, 133, 136);
+  display: flex;
+  flex-direction: row; 
+}
+.model{
+  margin: 10px;
+}
+.text{
+  margin: 20px; 
+}
+
+ 

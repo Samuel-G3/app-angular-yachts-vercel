@@ -1,0 +1,31 @@
+ 
+ 
+<div *ngIf="home.length" class="home-container">
+  
+
+     
+
+    <div *ngFor="let homex of home" class="home-container__card" style="background-image: url({{homex.imageMain}}); background-size: cover; background-position: center" > >
+   
+     
+</div> 
+
+
+<div *ngIf="home.length" class="home-text">
+  
+
+     
+
+    <div *ngFor="let homex of home" >
+   
+       <ul> 
+        <p>{{homex.text}}<p>
+        <img src={{homex.logo1}} />
+        <img src={{homex.logo2}} />
+        <img src={{homex.logo3}} />
+        <img src={{homex.logo4}} />
+       </ul>
+    </div>
+</div> 
+ 
+ 

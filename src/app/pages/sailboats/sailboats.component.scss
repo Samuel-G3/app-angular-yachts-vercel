@@ -1,0 +1,83 @@
+@import "../../../styles.scss";
+
+h6 {
+  padding: 10px;
+  margin: 80px; 
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  background-color: $background;
+  font-size: 18px;
+  border-radius: 3px;
+}
+@media only screen and (max-width: 600px) {
+  .h6 {
+    
+    padding: 10px;
+    margin: 10px; 
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    background-color: $background;
+    font-size: 18px;
+    border-radius: 3px;
+  }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .boats-container  {
+   
+      filter: brightness(100%);
+    }
+  
+  }
+
+@media only screen and (max-width: 600px) {
+  .boats-container__card {
+    max-height: 150px;
+ 
+   
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  .boats-container {
+     
+    filter: brightness(100%);
+    transition: 2s;
+   
+  }
+
+}
+ 
+.boats-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+
+  &__card { 
+    border-radius: 3px;
+    margin: 20px;
+    height: 700px;
+    width: 50%;
+    filter: brightness(100%);
+    transition: 2s;
+
+    &:hover{
+      cursor: pointer;
+    
+      filter: brightness(170%);
+      transition: 2s;
+    }
+  }
+}
+ 
+
+ 
